@@ -1,0 +1,23 @@
+{
+  "name": "features",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "astring": "^1.7.0",
+    "esprima": "^4.0.1",
+    "estraverse": "^5.2.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "@types/esprima": "^4.0.2",
+    "@types/estraverse": "^5.1.0",
+    "@types/estree": "^0.0.47",
+    "@types/node": "^14.14.37",
+    "prettier": "^2.2.1"
+  }
+}
